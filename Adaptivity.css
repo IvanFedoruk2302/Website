@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+    .screen .TITLE {
+        font-size: 7vw;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .screen .TITLE {
+        font-size: 73px; /* Максимальный размер шрифта */
+        max-width: 1127px; /* Максимальная ширина блока */
+        height: 196px; /* Высота блока */
+        line-height: 1.2; /* Примерный коэффициент для вертикального выравнивания текста */
+
+    }
+}
+@media screen and (min-width: 1025px) {
+    /* Применяется для экранов шириной 1025 пикселей и более */
+    .TITLE {
+      width: 75%;
+      font-size: 100px; /* Замените на желаемый размер шрифта для больших экранов */
+    }
+  }
+
+  @media (max-width: 800px) {
+    .inputBox input {
+      width: 400px;
+    }
+  }

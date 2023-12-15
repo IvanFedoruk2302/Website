@@ -1,0 +1,250 @@
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #151618;
+  font-size: 20px
+}
+
+.wrapper{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footer{
+  text-align: center;
+  padding: 30px;
+  background-color:#FFF386;
+  position: relative;
+}
+
+.media{
+  font-size: 24px;
+}
+
+media-container {
+  display: inline-block;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.media-container img {
+  width: 66px;
+  margin-left: 10px; 
+}
+
+.header{
+  background-color: #FFF386; 
+  width: 100%; 
+  height: 70px; 
+  background-blend-mode: darken;
+}
+
+.container{
+  max-width: 636px;
+  max-height: 70px;
+  margin: auto auto;
+}
+
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.menu__list{
+  display: flex;
+  align-items: center;
+  gap: 0 38px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 47px;
+  max-height: 49px;
+  pointer-events: none;
+}
+
+.screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .screen .div {
+    background-color: #ffffff;
+    width: 1920px ;
+    height: 1080px;
+    position: relative;
+  }
+  
+  .screen .TITLE {
+    position: absolute;
+    width: 70%; 
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%); 
+    font-family: "Inter-Black", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 5vw; 
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+  .coc{
+    display: flex;
+    height: 450px;
+    justify-content: center;
+  }
+  .screen .view {
+    position: relative;
+    height: 450px;
+    width: 300px;
+    top: 290px;
+    justify-content: space-between;
+  }
+
+  
+  .screen .text-wrapper {
+    width: 222px;
+    top: 0;
+    left: 0;
+    font-size: 36px;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .screen .image {
+    position: absolute;
+    width: 102px;
+    height: 108px;
+    top: 56px;
+    left: 60px;
+    object-fit: cover;
+  }
+  
+  .screen .p {
+    width: 276px;
+    top: 188px;
+    left: 4px;
+    font-size: 24px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+
+  .screen .text-wrapper-2 {
+    width: 161px;
+    top: 0;
+    left: 30px;
+    font-size: 36px;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .screen .img {
+    position: absolute;
+    width: 102px;
+    height: 102px;
+    top: 59px;
+    left: 60px;
+    object-fit: cover;
+  }
+  
+  .screen .text-wrapper-3 {
+    position: absolute;
+    width: 276px;
+    top: 185px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+
+  
+  .screen .text-wrapper-4 {
+    width: 212px;
+    top: 0;
+    left: 11px;
+    font-size: 36px;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .screen .image-2 {
+    position: absolute;
+    width: 102px;
+    height: 108px;
+    top: 53px;
+    left: 61px;
+    object-fit: cover;
+  }
+  
+  .screen .overlap {
+    position: absolute;
+    width: 1919px;
+    height: 70px;
+    top: 0;
+    left: 0;
+  }
+  
+  .screen .TOP {
+    position: absolute;
+    width: 642px;
+    height: 49px;
+    top: 10px;
+    left: 667px;
+  }
+  
+  .screen .image-3 {
+    position: absolute;
+    width: 46px;
+    height: 43px;
+    top: 3px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .screen .overlap-group {
+    position: a
+  }

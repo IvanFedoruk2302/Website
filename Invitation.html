@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="Mainpage.css" />
+    <link rel="stylesheet" href="Adaptivity.css">
+    <link rel="stylesheet" href = "Invitation.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreedomPath/Principles</title>
+  </head>
+  <body>
+  <div class = "wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" href = "mainpage.html" >
+            <img src="images/Snake.svg" alt="Логотип" >
+          </a>
+          <nav>
+            <ul class="menu__list">
+              <li><a href="Principles.html">Партия</a></li>
+              <li><a href="Invitation.html">Вступление</a></li>
+              <li><a href="Events.html">Мероприятия</a></li>
+            </ul>
+          </nav>
+          <a class="logo" href = "mainpage.html" >
+            <img src="images/Snake.svg" alt="Логотип" >
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+        <div class = "guide">
+            <h>Заявка в партию</h>
+            <p>Эти данные будут переданы ближайшему к вам координатору для собеседования.</p>
+        </div>
+        <div class="inputBox">
+          <input type="text" id = "fullName" required="required">
+          <span>Фамилия, имя и отчество</span>
+        </div>
+        <div class="inputBox">
+          <input type="text" id = "dob"required="required">
+          <span>Дата рождения</span>
+        </div>
+
+        <div class="inputBox">
+          <input type="text" id = "phoneNumber" required="required">
+          <span>Номер телефона</span>
+        </div>
+
+        <div class="inputBox">
+          <input type="text" id="email" required="required">
+          <span>Email</span>
+        </div>
+
+        <div class="inputBox">
+            <input type="text" id="region" required="required">
+            <span>Регион</span>
+        </div>
+
+        <div class="inputBox">
+            <input type="text" id="city" required="required">
+            <span>Город/населенный пункт</span>
+        </div>
+
+        <div class="inputBox">
+            <input type="text" id="occupation" required="required">
+            <span>Профессия/род деятельности</span>
+        </div>
+
+        <button class="submitBtn" onclick="submitForm()">Отправить заявку</button>
+        <script src="scriptForInput.js" defer></script>
+        <script src="Addition.js" defer></script>
+    </main>
+
+    <footer class="footer">
+        <span class = "media">Медиа:</span>
+        <div class="media-container">
+          <a href= "https://web.telegram.org/a/#-1001513669961" target="_blank">
+            <img src="images/Telegram.svg" alt="Telegram">
+          </a>
+          <a href= "https://twitter.com/lpr_tw" target="_blank">
+            <img src="images/Twitter.svg" alt="Twitter">
+          </a>
+          <a href= "https://www.youtube.com/@SVTVofficial/featured" target="_blank">
+            <img src="images/Youtube.svg" alt="Youtube">
+          </a>
+        </div>
+      </footer>
+    </div>
+    </body>
+  </html>
